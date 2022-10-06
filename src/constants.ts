@@ -4,8 +4,8 @@ import JSBI from 'jsbi'
 export type BigintIsh = JSBI | number | string
 
 export enum ChainId {
-  MAINNET = 56,
-  TESTNET = 97
+  MAINNET = 1229,
+  TESTNET = 2370
 }
 
 export enum TradeType {
@@ -19,18 +19,18 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+export const FACTORY_ADDRESS = '0x10DB1F4cDc02f9037C3c079760c2275Ff4CB04EB'
 
 export const FACTORY_ADDRESS_MAP = {
   [ChainId.MAINNET]: FACTORY_ADDRESS,
-  [ChainId.TESTNET]: '0x6725f303b657a9451d8ba641348b6761a6cc7a17'
+  [ChainId.TESTNET]: '0x10DB1F4cDc02f9037C3c079760c2275Ff4CB04EB'
 }
 
-export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
+export const INIT_CODE_HASH = '0x5862ae1df8ff9d1f2c1c2e80c74c6b14ea44fc116052e82b69bff3772a8a84af'
 
 export const INIT_CODE_HASH_MAP = {
   [ChainId.MAINNET]: INIT_CODE_HASH,
-  [ChainId.TESTNET]: '0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66'
+  [ChainId.TESTNET]: '0x5862ae1df8ff9d1f2c1c2e80c74c6b14ea44fc116052e82b69bff3772a8a84af'
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
