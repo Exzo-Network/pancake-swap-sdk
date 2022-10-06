@@ -70,7 +70,7 @@ export const WETH = {
     ChainId.MAINNET,
     '0x8C8Af38370509937d43615AA55F8cC5964675652',
     18,
-    'WEXZO',
+    'WXZO',
     'Wrapped Exzo',
     'https://www.exzo.network'
   ),
